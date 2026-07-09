@@ -1,0 +1,25 @@
+RegTech Submission Validation Report
+------------------------------------
+Total submissions: 13
+Valid submissions: 3
+Review submissions: 2
+Invalid submissions: 8
+
+Result summary:
+invalid: 8
+valid: 3
+review: 2
+
+Error summary:
+Invalid amount: 2
+Unsupported currency: 1
+Missing transaction ID: 1
+Missing submitted date: 1
+Missing customer ID: 1
+Invalid amount format: 1
+Duplicate transaction ID: 1
+
+Source system summary:
+portal: 6
+api: 5
+legacy: 2
