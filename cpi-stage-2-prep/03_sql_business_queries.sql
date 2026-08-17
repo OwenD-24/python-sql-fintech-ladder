@@ -20,7 +20,7 @@ SELECT c.customer_name, COUNT(t.transaction_id), SUM(t.amount)
 FROM customers c 
 JOIN transactions t
     ON c.customer_id = t.customer_id
-WHERE t.status = 'valid'
-    AND HAVING SUM(t.amount) >= 10000
+WHERE t.status = 'valid'   
 GROUP BY c.customer_name
+HAVING SUM(t.amount) >= 10000
 ORDER BY SUM(t.amount) DESC; 
