@@ -13,3 +13,7 @@ def validation():
         "review": 1,
         "invalid": 3
     }
+
+# Python handles the validation, 
+# n8n activates the workflow and 
+# the LLM summarieses the results before the email is sent.
